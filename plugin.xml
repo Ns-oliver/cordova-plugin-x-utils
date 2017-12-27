@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-x-utils"
+    version="1.0.0">
+    <name>Utils</name>
+    <description>Cordova Utils Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,Utils</keywords>
+    <engines>
+            <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <js-module src="www/Utils.js" name="Utils">
+        <clobbers target="window.Utils" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CDVUtils">
+                <param name="ios-package" value="CDVUtils" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVUtils.h" />
+        <source-file src="src/ios/CDVUtils.m" />
+    </platform>
+</plugin>

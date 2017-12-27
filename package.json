@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-x-utils",
+  "version": "1.0.0",
+  "description": "Cordova Utils Plugin",
+  "cordova": {
+    "id": "cordova-plugin-x-utils",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ns-oliver/cordova-plugin-x-utils.git"
+  },
+  "keywords": [
+    "cordova",
+    "Utils",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "lazygleen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ns-oliver/cordova-plugin-x-utils/issues"
+  },
+  "homepage": "https://github.com/Ns-oliver/cordova-plugin-x-utils#readme"
+}
